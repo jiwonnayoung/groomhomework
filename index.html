@@ -1,14 +1,44 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>구름 딥다이브 코스에 오신것을 환영</title>
-    </head>
-    <body>
-        <div></div>
-        <p>여기는 구름 딥다이브 코스이며</p>
-        <p>프론트엔드 과정에는 총 13명이 강의를 듣고있습니다.</p>
+<!DOCTYPE html> 
 
-        <input  type="date"/>
-        <button>버튼 하나</button>
+
+<html> 
+    <head>
+        <title>주요 폼 태그</title>
+ 
+    </head>
+   
+    <body>
+        <h1>주요 폼 태그와 속성 알아보기</h1>
+        <div>
+            <!--form 태그 사용-->
+            <form action="" method="GET">
+                <div>
+                    <!--텍스트 입력-->
+                    <label for="username">수강생 이름: </label>
+                    <input type="text" name="username">
+                </div>
+                <br>
+                <div>
+                    <!--체크박스-->
+                    <label for="check">수강 여부: yes</label>
+                    <input type="checkbox" name="check" value="yes">
+                </div>
+                <br>
+                <div>
+                    <!--라디오 버튼-->
+                    <label>수강 과목</label><br>
+                    <input type="radio" name="FE" value="fontend">
+                    <label>프론트엔드</label> <br>
+                    <input type="radio" name="BE" value="backend">
+                    <label>백엔드</label><br><br>
+                </div>
+                
+                <button type="submit">제출</button>
+            </form>
+        </div>
+        <br>     
     </body>
+    <footer> 
+        <p> @ 구름 딥다이브 EXP 미션</p>
+    </footer>
 </html>

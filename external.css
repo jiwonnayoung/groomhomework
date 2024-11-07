@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    color: gray;
+    margin: 10;
+    padding: 10;
+}
+
+h1.subject:hover {
+    color: black;
+}
+
+h1.subject#first:active{
+    color:greenyellow;
+}
+
+h1.subject#second{
+    font-style: italic;
+}

@@ -1,0 +1,49 @@
+.box1{
+    width: 200px;
+    height: 70px;
+    background-color: green;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    margin: 50px;
+    padding: 50px;
+    border: solid 20px red;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: darkolivegreen;
+    border: solid 10px black;
+    /*margin 여백 - 위쪽 오른쪽 아래쪽 왼쪽*/
+    /*padding 여백 - 위쪽 오른쪽 아래쪽 왼쪽*/
+    /*padding과 margin의 크기는 실제 요소의 크기에 반영됨*/
+    margin: 0 50px 0 50px;
+    padding: 0 50px 0 50px;
+}
+.box4{
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+    margin: 20px 20px 20px 20px;
+    border-color: coral;
+    /*border-style: 테두리 형태*/
+    border-style: dashed;
+    /*border-width: 테두리 굵기*/
+    border-width: thick;
+    /*테두리 굵기, 형태, 색상 등 한꺼번에 속성 지정하기*/
+    /*border: thick dashed black*/
+}
+.box5{
+    width: 200px;
+    height: 200px;
+    background-color: darkkhaki;
+    margin: 0 100px 0 100px;
+    border: black thick dashed ;
+    /*border도 상하좌우 속성을 각각 입력할 수 있음*/
+    border-bottom: 0;
+    /*왼쪽 위- 오른쪽 위 - 오른쪽 아래- 왼쪽 아래 순서*/
+    border-radius: 50px 50px 10px 10px;
+    
+}

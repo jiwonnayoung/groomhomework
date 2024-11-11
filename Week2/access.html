@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>접근성 속성 활용 예제</title>
+    </head>
+    <body>
+        <!--헤더 영역-->
+        <header>
+            <h1>접근성 예제 페이지</h1>
+            <nav role="navigation" aria-label="주요 메뉴">
+                <ul>
+                    <li><a href="#content">본문으로 이동</a></li>
+                    <li><a href="#about">소개글로 이동</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <!--본문 영역-->
+        <main id="content" role="main">
+            <section id="about" aria-labelledby="about-heading">
+                <h2 id="about-heading">소개글</h2>
+                <p>이 페이지는 웹 접근성을 높이기 위해 alt와 role, aria 의 속성을 사용하였습니다.</p>
+            </section>
+            <section  id="gallery" aria-labelledby="gallery-heading">
+                <h2 id="gallery-heading">이미지를 확인해보세요</h2>
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D" alt="해변에서의 일몰" width="500" height="300">
+                <img src="https://newsimg.sedaily.com/2022/10/24/26CH550WKC_1.jpg" alt="가을 산의 풍경" width="500" height="300">
+            </section>
+
+            <button class="button" role="button" aria-pressed="false" aria-label="강의듣기 버튼">강의듣기</button>
+        </main>
+    </body>
+</html>

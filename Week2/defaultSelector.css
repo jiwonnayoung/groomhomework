@@ -1,0 +1,24 @@
+/*클래스 선택자*/
+.intro{
+    font-size: 17px;
+    font-weight: bold;
+    color: darkgreen;
+}
+.highlight{
+    background-color: blanchedalmond;
+    padding: 15px;
+}
+
+/*id선택자*/
+#main-content{
+    border: 1px solid #333;
+    padding: 30px;
+    background-color: burlywood;
+}
+
+/*태그 선택자*/
+p{
+    font-size: 20px;
+    color: gray;
+}
+

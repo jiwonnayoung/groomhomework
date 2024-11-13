@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>css arrangement</title>
+        <style>
+            .none-example{
+                display: none;
+                background-color: darkorange;
+                color: black;
+                padding: 10px;
+            }
+            .block-example{
+                display: block;
+                background-color: beige;
+                color: darkgray;
+                pad: 10px;
+                margin-bottom: 30px;
+            }
+            .inline-example{
+                display: inline;
+                background-color: darkolivegreen;
+                color: white;
+                padding: 10px;
+                margin-left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS 배치 이해하기</h1>
+
+        <div class="block-example">
+            <p>이 div 요소는 block으로 표시됩니다. 새로운 줄에서 시작하며 가로 전체를 차지합니다.</p>
+        </div>
+        <span class="inline-example">이 spa 태그는 inline 방식으로 표시됩니다.</span>
+        <span class="inline-example">확인을 위한 또 다른 inline 태그입니다.</span>
+
+        <div class="none-example">
+            <p>이 요소는 display:none 으로 숨겨져 있습니다.</p>
+        </div>
+    </body>
+</html>

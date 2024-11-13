@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>descendant selector</title>
+
+        <style>
+            #header > h1 { color: darkorange;}
+            #content > h1 {color: darkgrey;}
+            .nameclass > h1 {color: rgb(186, 207, 148);}
+
+        </style>
+    </head>
+    <body>
+        <h1>자손 선택자 사용해보기</h1>
+        <div id="header">
+            <h1 class="title">Groom Deepdive</h1>
+            <div class="nameclass">
+                <h1 class="name">Jiwon</h1>
+            </div>
+        </div>
+        <div id="content">
+            <h1>Exp mission</h1>
+            <p>화요일 미션 중 자손 선택자를 사용해보는 과제입니다.</p>
+        </div>
+    </body>
+</html>

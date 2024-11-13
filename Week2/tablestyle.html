@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>style for table</title>
+        <style>
+            /*테이블 스타일*/
+            table{
+                width: 100%;
+                border-collapse: collapse;
+            }
+            /*테이블 헤더 스타일*/
+            th{
+                background-color: aliceblue;
+                color: gray;
+                padding: 5px;
+                text-align: center;
+                border: 1px solid darkgray;
+            }
+            /*테이블 데이터 스타일*/
+            td{
+                pad: 5px;
+                border: 1px solid darkgray;
+                text-align: center;
+            }
+            td:hover{
+                background-color: darkolivegreen;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>table에 css 적용해보기</h1>
+        <table>
+            <tr>
+                <th>이름</th>
+                <th>나이</th>
+                <th>직업</th>
+            </tr>
+            <tr>
+                <td>김OO</td>
+                <td>21</td>
+                <td>학생</td>
+            </tr>
+            <tr>
+                <td>이OO</td>
+                <td>26</td>
+                <td>개발자</td>
+            </tr>
+            <tr>
+                <td>박OO</td>
+                <td>29</td>
+                <td>마케터</td>
+            </tr>
+        </table>
+    </body>
+</html>

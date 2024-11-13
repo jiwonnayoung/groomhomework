@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>가상 선택자</title>
+        <style>
+            input:enabled {background-color: white;}
+            input:disabled { background-color: rgb(204, 204, 204);}
+            input:disabled::placeholder {color: rgb(78, 78, 78);}
+            input:focus{background-color: orange;}
+            input:checked {
+                border: none;
+            }
+            input:checked + label {
+                font-size: 20px;
+            }
+
+            .enabled, .disabled{
+                display: inline-block;
+                margin-right: 20px;
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>가상 선택자 사용해보기</h1>
+        </header>
+        <main>
+            <div class="enabled">
+                <h2>입력 가능</h2>
+                <input type="text" placeholder="input able">
+                <label>enabled</label>
+            </div>
+            <div class="disabled">
+                <h2>입력 불가능</h2>
+                <input disabled="disabled" type="text" placeholder="input disable" >
+                <label>disabled</label>
+            </div>
+            <br><br>
+            <fieldset>
+                <legend>개인정보처리방침에 대한 동의</legend>
+                <input  type="checkbox" name="privacy" checked>
+                <label for="privacy">네, 동의합니다.</label>
+            </fieldset>
+        </main>
+
+    </body>
+</html>
